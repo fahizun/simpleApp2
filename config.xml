@@ -17,5 +17,9 @@
       Hardeep Shoker
   </author>
 
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="~1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
     <icon src="img/icon.png" />
 </widget>
